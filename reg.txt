@@ -1,0 +1,74 @@
+html code
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="reg.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+       <body>
+        <div class="container">
+          <div class="row">
+             <div class="col-12 col-md-8 col-lg-10 col-xl-12">
+                    <div class="background padding">
+                      <h1 class="heading">Registration form</h1>
+                      <div class="d-flex flex-row justify-content-center">
+                          <div class="card-item padding mt-5">
+                             <p>Username</p>
+                             <hr>
+                             <p>Email</p>
+                             <hr>
+                             <p>Password</p>
+                             <hr>
+                          </div>
+                     </div>
+                     <button class="button ml-auto">Submit</button>
+                 </div>
+              </div>
+            </div>
+        </div>
+       </body>
+
+</html>
+
+
+
+css code
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.background{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/941/847/original/cosmetic-background-for-product-branding-and-packaging-presentation-geometry-form-circle-molding-on-podium-stage-with-shadow-of-leaf-background-design-eps10-vector.jpg");
+    height: 2000px;
+    background-size: cover;
+}
+
+.heading{
+    font-family: "Times new Roman";
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.card-item{
+    background-color: white;
+    height: 250px;
+    width: 300px
+}
+
+.button{
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    width: 100px;
+    margin-left: 200px;
+}
+
+.padding{
+    padding: 20px;
+}
